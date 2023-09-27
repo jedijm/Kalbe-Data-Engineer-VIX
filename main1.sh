@@ -12,3 +12,6 @@ else
 	mkdir -p "$path/$name_of_directory"
 	echo "Directory $name_of_directory Created"
 fi
+
+crontab -e
+0 7 * * * $path/$name_of_directory/main1.sh
