@@ -23,7 +23,7 @@ try:
     connection.commit()
 except:
     #rollback saat error
-    conn.rollback()
+    connection.rollback()
 
 #Menutup koneksi
 connection.close()
