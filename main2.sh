@@ -1,3 +1,4 @@
+#!/bin/bash
 
 #Variables
 path="/hdfs/data/data1"
